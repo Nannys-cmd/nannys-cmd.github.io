@@ -1,7 +1,7 @@
 const projects = [
-    { name: "Página Web WTICS", repo: "https://github.com/Nannys-cmd/wtics", demo: "https://nannys-cmd.github.io/wtics/" },
-    { name: "Proyecto 2", repo: "https://github.com/Nannys-cmd/proyecto2", demo: "https://demo2.com" },
-    { name: "Proyecto 3", repo: "https://github.com/Nannys-cmd/proyecto3", demo: "https://demo3.com" },
+    { name: "WTICS", repo: "https://github.com/Nannys-cmd/wtics", demo: "https://nannys-cmd.github.io/wtics/" },
+    { name: "Pádel APDA", repo: "https://github.com/Priscilla-Rojas/Proyecto-CAC", demo: "https://priscilla-rojas.github.io/Proyecto-CAC/" },
+    { name: "CSS-Rebels", repo: "https://github.com/Daro2080/CSS-Rebels", demo: "https://daro2080.github.io/CSS-Rebels/" },
   ];
   
   function Projects() {
