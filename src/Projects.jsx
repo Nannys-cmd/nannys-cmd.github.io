@@ -11,8 +11,15 @@ const projects = [
         <ul>
           {projects.map((project, index) => (
             <li key={index}>
-              <a href={project.repo} target="_blank" rel="noopener noreferrer">{project.name}</a> 
-              {project.demo && <span> | <a href={project.demo} target="_blank">Demo</a></span>}
+              <strong>{project.name}</strong> 
+              <a href={project.repo} target="_blank" rel="noopener noreferrer" aria-label={`Repositorio de ${project.name}`}>
+                📂 Repo
+              </a>
+              {project.demo && (
+                <a href={project.demo} target="_blank" rel="noopener noreferrer" aria-label={`Demo de ${project.name}`}>
+                  🌍 Demo
+                </a>
+              )}
             </li>
           ))}
         </ul>
@@ -21,4 +28,5 @@ const projects = [
   }
   
   export default Projects;
+  
   

@@ -6,11 +6,20 @@ function App() {
     <div className="App">
       <header>
         <h1>👩‍💻 Daniela | Desarrolladora Web</h1>
-        <p>🚀 Java | React | Bases de Datos | IA</p>
+        <h2>🚀 Java | React | Bases de Datos | IA</h2>
       </header>
-      <Projects />
+      
+      <main>
+        <Projects />
+      </main>
+      
       <footer>
-        <p>📩 Contacto: <a href="mailto:daniela@ejemplo.com">daniela@ejemplo.com</a></p>
+        <p>
+          📩 Contacto: 
+          <a href="mailto:daniela@ejemplo.com" target="_blank" rel="noopener noreferrer">
+            daniela@ejemplo.com
+          </a>
+        </p>
       </footer>
     </div>
   );
