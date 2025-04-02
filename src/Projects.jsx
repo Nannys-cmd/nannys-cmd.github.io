@@ -1,5 +1,5 @@
 const projects = [
-    { name: "Proyecto 1", repo: "https://github.com/Nannys-cmd/proyecto1", demo: "https://demo1.com" },
+    { name: "Página Web WTICS", repo: "https://github.com/Nannys-cmd/wtics", demo: "https://nannys-cmd.github.io/wtics/" },
     { name: "Proyecto 2", repo: "https://github.com/Nannys-cmd/proyecto2", demo: "https://demo2.com" },
     { name: "Proyecto 3", repo: "https://github.com/Nannys-cmd/proyecto3", demo: "https://demo3.com" },
   ];
