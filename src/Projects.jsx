@@ -1,3 +1,5 @@
+import "./Projects.css"; // Asegúrate de que la ruta sea correcta
+
 const projects = [
     { name: "WTICS", repo: "https://github.com/Nannys-cmd/wtics", demo: "https://nannys-cmd.github.io/wtics/" },
     { name: "Pádel APDA", repo: "https://github.com/Priscilla-Rojas/Proyecto-CAC", demo: "https://priscilla-rojas.github.io/Proyecto-CAC/" },

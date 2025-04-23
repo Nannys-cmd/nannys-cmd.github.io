@@ -16,7 +16,7 @@ function App() {
       <footer>
         <p>
           📩 Contacto: 
-          <a href="bastiasdany.84@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="bastiasdany.84@gmail.com" target="_blank" rel="noopener noreferrer"> 
             Daniela Bastias
           </a>
         </p>
