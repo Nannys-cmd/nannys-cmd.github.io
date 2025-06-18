@@ -1,7 +1,7 @@
 import "./Projects.css"; // Asegúrate de que la ruta sea correcta
 
 const projects = [
-    { name: "WTICS", repo: "https://github.com/Nannys-cmd/wtics", demo: "https://nannys-cmd.github.io/wtics/" },
+    { name: "WTICS", repo: "https://github.com/Nannys-cmd/wtics", demo: "https://nannys-cmd.github.io/landing-portfolio-template/" },
     { name: "Pádel APDA", repo: "https://github.com/Priscilla-Rojas/Proyecto-CAC", demo: "https://priscilla-rojas.github.io/Proyecto-CAC/" },
     { name: "CSS-Rebels", repo: "https://github.com/Daro2080/CSS-Rebels", demo: "https://daro2080.github.io/CSS-Rebels/" },
   ];
