@@ -1,5 +1,6 @@
 import "./App.css";
 import Projects from "./Projects";
+import About from "./About";
 
 function App() {
   return (
@@ -11,16 +12,19 @@ function App() {
       
       <main>
         <Projects />
+        <About />
       </main>
       
-      <footer>
-        <p>
-          📩 Contacto: 
-          <a href="bastiasdany.84@gmail.com" target="_blank" rel="noopener noreferrer"> 
-            Daniela Bastias
-          </a>
-        </p>
-      </footer>
+<footer>
+  <p>📫 Contacto:</p>
+  <div className="social-links">
+    <a href="mailto:bastiasdany.84@gmail.com" target="_blank" rel="noopener noreferrer">Email</a> |
+    <a href="https://www.linkedin.com/in/danielaesterbastias" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+    <a href="https://github.com/Nannys-cmd" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </div>
+  <p className="copy">© 2025 Daniela Bastias</p>
+</footer>
+
     </div>
   );
 }
